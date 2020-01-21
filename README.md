@@ -56,6 +56,7 @@ Figure 1: FAIR Data Principles</p>
 
 ## CKAN extensions
 The following CKAN extensions are currently installed in the pilot CKAN platforms:
+
 |Plugin|Purpose|Deployed in|URL|
 |---|---|---|---|
 |ckanext-spatial|Adds geospatial capabilities to CKAN|Open & Private|[URL](https://github.com/geological-survey-of-queensland/ckanext-spatial.git)|
