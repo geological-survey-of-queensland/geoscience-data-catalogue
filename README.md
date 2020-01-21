@@ -27,9 +27,47 @@ Figure 1: FAIR Data Principles</p>
 1. **GSQ Internal Data Portal** - an internal catalogue of data that is not yet classified as open data.
 1. **GSQ Knowledgebase** - a data catalogue of GSQ-owned datasets for use by GSQ geoscientists and other departmental users. NOTE: The Knowledgebase and Internal Data Portals are the same CKAN instance.
 
+## Work required by the supplier to develop the Data Catalogue:
+### Data Catalogue:  
+1. Extend and optimise the CKAN Data Catalogue technology platform to enhance functionality, performance, and usability.  
+1. Programmatically populate the data catalogue from existing metadata systems MERLIN, QDEX Reports, QDEX Data, GEM, geochemistry Microsoft Access database.  
+1. Programmatically populate the data catalogue with metadata for geoscience data objects that are not in existing metadata systems, e.g. data on NAS or other storage. This will include activities such as extracting metadata from file header data.  
+1. Optimise the search functionality for the data catalogue. CKAN uses SOLR as its search engine, but we are open to additional search capability, particularly that which allows for facetted searching and the ability to search across specific data attributes across the data store.  
+1. Configure the security of the data catalogue according to the Access Rights security schema: e.g. open access, embargoed access, restricted access, metadata only access.  
+
+###	Data schemas:  
+1. Assist GSQ staff to create, optimise and extend geoscience data schemas.  
+1. Create schema validations.  
+
+### Controlled vocabularies  
+1. Optimise the performance and functionality of the vocabulary management tools. 
+1. Integrate external (non-GSQ) master data sources into the vocabulary manager.  
+
+### Persistent identifiers  
+1. Integrate the data catalogue, lodgement forms, and other data collections to existing PID minting services.  
+1. Create PID minting services where no National or State minting service is available.  
+1. Apply PIDs to legacy data as part of data migration to the data catalogue and data lake.  
+
+### Linked data  
+1. Assist GSQ staff in the creation, extension, and optimisation of linked data.  
+1. Optimise the performance and end user experience of the graph database to make data more discoverable and interactive.  
+1. Implement visualisations of the linked data.  
+1. Implement APIs to the graph database.  
+
 ## CKAN extensions
 The following CKAN extensions are currently installed in the pilot CKAN platforms:
-
+|Plugin|Purpose|Deployed in|URL|
+|---|---|---|---|
+|ckanext-spatial|Adds geospatial capabilities to CKAN|Open & Private|[URL](https://github.com/geological-survey-of-queensland/ckanext-spatial.git)|
+|ckanext-saml2|Enables SAML2 based SSO|Private|[URL](https://github.com/DataShades/ckanext-saml2)|
+|ckanext-scheming|Create custom metadata forms|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-scheming.git)|
+|ckanext-scheming|Create custom metadata forms|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-scheming.git)|
+|ckanext-theming|Enables SAML SSO|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-gsq-theme.git)|
+|ckanext-theming|Enables SAML SSO|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-gsq-theme.git)|
+|ckanext-datapusher|Enables SAML SSO|Open|[URL](https://github.com/ckan/datapusher.git)|
+|ckanext-pdfview|Enables SAML SSO|Open & Private|[URL](https://github.com/ckan/ckanext-pdfview.git)|
+|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)]|
+|ckanext-dcat|Provides DCAT2 metadata export|Open & Private|[URL]()|
 
 The following CKAN extensions are to be considered for implementation into the CKAN platforms:
 
@@ -68,28 +106,7 @@ The following data migration is required:
 
 
 
-## Work required by the supplier to develop the Data Catalogue:
-1.	Data Catalogue:  
-    a. Extend and optimise the CKAN Data Catalogue technology platform to enhance functionality, performance, and usability.  
-    b. Programmatically populate the data catalogue from existing metadata systems MERLIN, QDEX Reports, QDEX Data, GEM, geochemistry Microsoft Access database.  
-    c. Programmatically populate the data catalogue with metadata for geoscience data objects that are not in existing metadata systems, e.g. data on NAS or other storage. This will include activities such as extracting metadata from file header data.  
-    d. Optimise the search functionality for the data catalogue. CKAN uses SOLR as its search engine, but we are open to additional search capability, particularly that which allows for facetted searching and the ability to search across specific data attributes across the data store.  
-    e. Configure the security of the data catalogue according to the Access Rights security schema: e.g. open access, embargoed access, restricted access, metadata only access.  
-2.	Data schemas:  
-    a. Assist GSQ staff to create, optimise and extend geoscience data schemas.  
-    b. Create schema validations.  
-3.	Controlled vocabularies  
-    a. Optimise the performance and functionality of the vocabulary management tools. 
-    b. Integrate external (non-GSQ) master data sources into the vocabulary manager.  
-4.	Persistent identifiers  
-    a. Integrate the data catalogue, lodgement forms, and other data collections to existing PID minting services.  
-    b. Create PID minting services where no National or State minting service is available.  
-    c. Apply PIDs to legacy data as part of data migration to the data catalogue and data lake.  
-5.	Linked data  
-    a. Assist GSQ staff in the creation, extension, and optimisation of linked data.  
-    b. Optimise the performance and end user experience of the graph database to make data more discoverable and interactive.  
-    c. Implement visualisations of the linked data.  
-    d. Implement APIs to the graph database.  
+
 
 
 ## See also
