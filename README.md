@@ -105,9 +105,31 @@ The following data migration is required:
 |--|--|--|--|--|
 |MERLIN|Bibliographies|MERLIN|DCAT2 Dataset|--|
 
+# CKAN Facets
+| Facet | Type  | AND/OR  | Metadata Field  |
+|---|---|---|---|
+| Spatial bounds | Bounding box | AND | spatial |
+| Data Types | Facet | AND | dataset\_type |
+| Commodities | Facet/multiple | OR | commodity |
+| Earth Science Data Category | Facet | AND | earth\_science\_data\_category |
+| Geological Features | Facet, searchable | AND | geologic\_feature |
+| Report type | Facet | AND | georesource\_report\_type |
+| Data Formats | Facet | AND |  |
+| Date | Multi value \(with ranges\) | AND, intersect of date range | dataset\_start\_data, dataset\_completion\_date |
+| Access Rights | Facet \(Knowledgebase only\) | OR | extra:access\_rights |
 
-
-
+# CKAN Advanced Search
+| Attribute | Placeholder | Prefix | Validation | Meta Title |  |
+|---|---|---|---|---|---|
+| Any attribute | Enter a search term |  | A\-z, 1\-9, space, “\-” | all |  |
+| Title | Enter any title | none | A\-z, 1\-9, space, “\-” | title |  |
+| Persistent identifier | Enter a Persistent Identifier |  | See persistent identifiers below | extra:identifier |  |
+| Report PID | Enter a Report ID | cr | 1\-9 | extra:identifier | Search only dataset type report |
+| Survey PID | Enter a Survey Number, e\.g\. ss12345 |  | Two characters or a\-z  plus\+ 0\-9 | extra:identifier | Search only dataset type survey |
+| Permit ID | Enter a Permit ID, e\.g\. “EPM12345” | none | A\-z, 1\-9 | resource\_authority\_permit |  |
+| Borehole PID | Enter a Borehole PID, e\.g\. bh12345 | bh | 1\-9 | extra:identifier | Search only dataset type borehole |
+| Borehole Name | Enter a Borehole Name |  | A\-z, 1\-9, space, “\-” | title | Search only dataset type borehole |
+| Borehole Alias | Enter any Borehole Alias  | none | A\-z, 1\-9, space, “\-” | alias | Search only dataset type borehole |
 
 
 ## See also
