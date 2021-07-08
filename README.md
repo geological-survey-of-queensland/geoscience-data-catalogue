@@ -67,7 +67,7 @@ The following CKAN extensions are currently installed in the pilot CKAN platform
 |ckanext-theming|Enables SAML SSO|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-gsq-theme.git)|
 |ckanext-datapusher|Enables SAML SSO|Open|[URL](https://github.com/ckan/datapusher.git)|
 |ckanext-pdfview|Enables SAML SSO|Open & Private|[URL](https://github.com/ckan/ckanext-pdfview.git)|
-|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)]|
+|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)|
 |ckanext-dcat|Provides DCAT2 metadata export|Open & Private|[URL]()|
 
 The following CKAN extensions are to be considered for implementation into the CKAN platforms:
