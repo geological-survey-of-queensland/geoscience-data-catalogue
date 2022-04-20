@@ -15,7 +15,7 @@ Figure 1: FAIR Data Principles</p>
 * **Reusable**: Data and collections have a clear usage licenses and provide accurate information on provenance.
 
 ## Core components of the data catalogue:
-1. **Data Catalogue** – a CKAN-based data catalogue with a number of extensions that improve user experience and performance.
+1. **Data Portal Catalogue** – a CKAN-based data catalogue with a number of extensions that improve user experience and performance.
 1. **Data Store** - low cost, high volume data object storage (AWS S3 buckets).
 1. **Data Schemas** - standardised data models that represent a dataset: its metadata, elements and attributes, and relationships to other datasets and data elements. The data schemas based on DCAT2, ISO, GGIC, PPDM, and other standards.
 1. **Controlled Vocabularies** – agreed sets of terms to enable data to be shared and reused across application, enterprise, and community boundaries.
