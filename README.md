@@ -55,20 +55,27 @@ Figure 1: FAIR Data Principles</p>
 1. Implement APIs to the graph database.  
 
 ## CKAN extensions
-The following CKAN extensions are currently installed in the pilot CKAN platforms:
+The following CKAN extensions are currently installed in the GSQ CKAN platforms:
 
 |Plugin|Purpose|Deployed in|URL|
 |---|---|---|---|
-|ckanext-spatial|Adds geospatial capabilities to CKAN|Open & Private|[URL](https://github.com/geological-survey-of-queensland/ckanext-spatial.git)|
-|ckanext-saml2|Enables SAML2 based SSO|Private|[URL](https://github.com/DataShades/ckanext-saml2)|
+|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)]|
+|ckanext-dcat|Provides DCAT2 metadata export|Open & Private|[URL](https://github.com/ckan/ckanext-dcat)|
+|ckanext-drupal_api|Enables page layout changes|Open|[URL](https://pypi.org/project/ckanext-drupal-api)|
+|ckanext-drupal_idp|Handles session state for user authentication|Open|[URL](https://pypi.org/project/ckanext-drupal-idp)|
+|ckanext-fpx|CKAN adapter for FPX service|Open & Private|[URL](https://pypi.org/project/ckanext-fpx)|
+|ckanext-googleanalytics|Enables traffic analysis|Open & Private|[URL](https://github.com/ckan/ckanext-googleanalytics)|
+|ckanext-harvest|Provides a common harvesting framework for ckan extensions|Open & Private|[URL](https://github.com/ckan/ckanext-harvest)|
+|ckanext-pdfview|Enables SAML SSO|Open & Private|[URL](https://github.com/ckan/ckanext-pdfview.git)|
+|ckanext-saml2auth|Enables SAML2 based SSO|Private|[URL](https://github.com/DataShades/ckanext-saml2)|
 |ckanext-scheming|Create custom metadata forms|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-scheming.git)|
 |ckanext-scheming|Create custom metadata forms|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-scheming.git)|
+|ckanext-spatial|Adds geospatial capabilities to CKAN|Open & Private|[URL](https://github.com/geological-survey-of-queensland/ckanext-spatial.git)|
+|ckanext-syndicate|Syndicate datasets to another CKAN instance|Open & Private|[URL](https://github.com/aptivate/ckanext-syndicate)|
 |ckanext-theming|Enables SAML SSO|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-gsq-theme.git)|
 |ckanext-theming|Enables SAML SSO|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-gsq-theme.git)|
-|ckanext-datapusher|Enables SAML SSO|Open|[URL](https://github.com/ckan/datapusher.git)|
-|ckanext-pdfview|Enables SAML SSO|Open & Private|[URL](https://github.com/ckan/ckanext-pdfview.git)|
-|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)]|
-|ckanext-dcat|Provides DCAT2 metadata export|Open & Private|[URL]()|
+|ckanext-xloader|Loads CSV (and similar) data into CKAN's DataStore|Open & Private|[URL](https://github.com/ckan/ckanext-xloader)|
+|ckanext-zippreview|Preview contents of ZIP files|Open & Private|[URL](https://github.com/datagovau/ckanext-zippreview)|
 
 The following CKAN extensions are to be considered for implementation into the CKAN platforms:
 
