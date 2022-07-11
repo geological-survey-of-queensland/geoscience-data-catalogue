@@ -79,6 +79,7 @@ The following CKAN extensions are currently installed in the GSQ CKAN platforms:
 |ckanext-xloader|Loads CSV (and similar) data into CKAN's DataStore|Open & Private|[URL](https://github.com/ckan/ckanext-xloader)|
 |ckanext-zippreview|Preview contents of ZIP files|Open & Private|[URL](https://github.com/datagovau/ckanext-zippreview)|
 
+You can see what plugins are currently installed with this [API query](https://geoscience.data.qld.gov.au/api/action/status_show)
 
 ## Data migration into the Data Catalogue
 The following data migration is required:
