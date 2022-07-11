@@ -59,7 +59,7 @@ The following CKAN extensions are currently installed in the GSQ CKAN platforms:
 
 |Plugin|Purpose|Deployed in|URL|
 |---|---|---|---|
-|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)]|
+|ckanext-cloudstorage|Enables storage of resources in AWS S3|Open & Private|[URL](https://github.com/TkTech/ckanext-cloudstorage.git)|
 |ckanext-dcat|Provides DCAT2 metadata export|Open & Private|[URL](https://github.com/ckan/ckanext-dcat)|
 |ckanext-drupal_api|Enables page layout changes|Open|[URL](https://pypi.org/project/ckanext-drupal-api)|
 |ckanext-drupal_idp|Handles session state for user authentication|Open|[URL](https://pypi.org/project/ckanext-drupal-idp)|
@@ -149,10 +149,10 @@ This code repository's content are licensed under the [Creative Commons Attribut
 ## Contacts
 *System owner*:  
 **Mark Gordon**  
-Geological Survey of Quensland  
-Department of Natural Resources, Mines and Energy  
+Geological Survey of Queensland  
+Department of Resources  
 Brisbane, QLD, Australia  
-<mark.gordon@dnrme.qld.gov.au>  
+<mark.gordon@resources.qld.gov.au>  
 
 *Author*:  
 **David Crosswell**  
