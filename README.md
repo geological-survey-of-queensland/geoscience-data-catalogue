@@ -65,19 +65,19 @@ The following CKAN extensions are currently installed in the GSQ CKAN platforms:
 |ckanext-drupal_idp|Handles session state for user authentication|Open|[URL](https://pypi.org/project/ckanext-drupal-idp)|
 |ckanext-fpx|CKAN adapter for FPX service|Open & Private|[URL](https://pypi.org/project/ckanext-fpx)|
 |ckanext-googleanalytics|Enables traffic analysis|Open & Private|[URL](https://github.com/ckan/ckanext-googleanalytics)|
+|ckanext-gsq-internal-theme|Custom Geological Survey of Qld (GSQ) theme|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-gsq-theme)|
+|ckanext-gsq-theme|Custom Geological Survey of Qld (GSQ) theme|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-gsq-theme)|
 |ckanext-harvest|Provides a common harvesting framework for ckan extensions|Open & Private|[URL](https://github.com/ckan/ckanext-harvest)|
+|ckanext-or_facet|Enables logic change for applying facets|Open & Private|[URL](https://pypi.org/project/ckanext-or-facet)|
 |ckanext-pdfview|Enables SAML SSO|Open & Private|[URL](https://github.com/ckan/ckanext-pdfview.git)|
+|ckan-python3|CKAN compatibility with Python 3|Open & Private|[URL](https://ckan.org/blog/the-ckan-on-python-3-initiative-get-involved)|
 |ckanext-saml2auth|Enables SAML2 based SSO|Private|[URL](https://github.com/DataShades/ckanext-saml2)|
 |ckanext-scheming|Create custom metadata forms|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-scheming.git)|
 |ckanext-scheming|Create custom metadata forms|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-scheming.git)|
 |ckanext-spatial|Adds geospatial capabilities to CKAN|Open & Private|[URL](https://github.com/geological-survey-of-queensland/ckanext-spatial.git)|
 |ckanext-syndicate|Syndicate datasets to another CKAN instance|Open & Private|[URL](https://github.com/aptivate/ckanext-syndicate)|
-|ckanext-theming|Enables SAML SSO|Open|[URL](https://github.com/geological-survey-of-queensland/gsq-ckanext-gsq-theme.git)|
-|ckanext-theming|Enables SAML SSO|Private|[URL](https://github.com/geological-survey-of-queensland/gsq-kb-ckanext-gsq-theme.git)|
 |ckanext-xloader|Loads CSV (and similar) data into CKAN's DataStore|Open & Private|[URL](https://github.com/ckan/ckanext-xloader)|
 |ckanext-zippreview|Preview contents of ZIP files|Open & Private|[URL](https://github.com/datagovau/ckanext-zippreview)|
-
-The following CKAN extensions are to be considered for implementation into the CKAN platforms:
 
 
 ## Data migration into the Data Catalogue
