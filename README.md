@@ -140,23 +140,22 @@ The following data migration is required:
 | Borehole Alias | Enter any Borehole Alias  | none | A\-z, 1\-9, space, “\-” | alias | Search only dataset type borehole |
 
 
-## See also
-* 
-
 ## License
 This code repository's content are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), the deed of which is stored in this repository here: [LICENSE](LICENSE).
 
 
 ## Contacts
 *System owner*:  
-**Mark Gordon**  
-Geological Survey of Queensland  
-Department of Resources  
-Brisbane, QLD, Australia  
+**Mark Gordon**,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,
 <mark.gordon@resources.qld.gov.au>  
 
-*Author*:  
-**David Crosswell**  
-Enterprise Architect  
-Cross-Lateral Enterprises   
-<https://crosslateral.com.au>
+*Contributors*:  
+**Vance Kelly**,
+Principal Data Manager,
+Geological Survey of Queensland,
+Department of Resources,
+Brisbane, QLD, Australia,  
+<vance.kelly@resources.qld.gov.au>
