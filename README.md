@@ -18,7 +18,7 @@ Figure 1: FAIR Data Principles</p>
 1. **Data Portal Catalogue** – a CKAN-based data catalogue with a number of extensions that improve user experience and performance.
 1. **Data Store** - low cost, high volume data object storage (AWS S3 buckets).
 1. **Data Schemas** - standardised data models that represent a dataset: its metadata, elements and attributes, and relationships to other datasets and data elements. The data schemas based on DCAT2, ISO, GGIC, PPDM, and other standards.
-1. **Controlled Vocabularies** – agreed sets of terms to enable data to be shared and reused across application, enterprise, and community boundaries.
+1. **[Controlled Vocabularies](https://github.com/geological-survey-of-queensland/vocabularies)** – agreed sets of terms to enable data to be shared and reused across application, enterprise, and community boundaries.
 1. **[Persistent Identifiers (PID)](https://github.com/geological-survey-of-queensland/persistent-identifiers)** – a long-lasting reference to a digital resource such as a document, file, web page, or other object.
 1. **Linked Data** – connecting related data so that a person or machine can explore the web of data. With linked data, when you have some of it, you can find other, related, data.
 
